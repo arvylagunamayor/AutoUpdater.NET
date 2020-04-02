@@ -111,12 +111,57 @@ namespace AutoUpdaterDotNetCore.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Downloading at {0}/s.
+        /// </summary>
+        internal static string DownloadSpeedMessage {
+            get {
+                return ResourceManager.GetString("DownloadSpeedMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Checksum differs.
+        /// </summary>
+        internal static string FileIntegrityCheckFailedCaption {
+            get {
+                return ResourceManager.GetString("FileIntegrityCheckFailedCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File integrity check failed and reported some errors..
+        /// </summary>
+        internal static string FileIntegrityCheckFailedMessage {
+            get {
+                return ResourceManager.GetString("FileIntegrityCheckFailedMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap hand_point {
             get {
                 object obj = ResourceManager.GetObject("hand_point", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unsupported Hash Algorithm.
+        /// </summary>
+        internal static string HashAlgorithmNotSupportedCaption {
+            get {
+                return ResourceManager.GetString("HashAlgorithmNotSupportedCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hash algorithm provided in the XML file is not supported..
+        /// </summary>
+        internal static string HashAlgorithmNotSupportedMessage {
+            get {
+                return ResourceManager.GetString("HashAlgorithmNotSupportedMessage", resourceCulture);
             }
         }
         
@@ -129,113 +174,48 @@ namespace AutoUpdaterDotNetCore.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Downloading at {0}/s.
-        /// </summary>
-        internal static string DownloadSpeedMessage
-        {
-            get
-            {
-                return ResourceManager.GetString("DownloadSpeedMessage", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Checksum differs.
-        /// </summary>
-        internal static string FileIntegrityCheckFailedCaption
-        {
-            get
-            {
-                return ResourceManager.GetString("FileIntegrityCheckFailedCaption", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to File integrity check failed and reported some errors..
-        /// </summary>
-        internal static string FileIntegrityCheckFailedMessage
-        {
-            get
-            {
-                return ResourceManager.GetString("FileIntegrityCheckFailedMessage", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Unsupported Hash Algorithm.
-        /// </summary>
-        internal static string HashAlgorithmNotSupportedCaption
-        {
-            get
-            {
-                return ResourceManager.GetString("HashAlgorithmNotSupportedCaption", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Hash algorithm provided in the XML file is not supported..
-        /// </summary>
-        internal static string HashAlgorithmNotSupportedMessage
-        {
-            get
-            {
-                return ResourceManager.GetString("HashAlgorithmNotSupportedMessage", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Update Check Failed.
         /// </summary>
-        internal static string UpdateCheckFailedCaption
-        {
-            get
-            {
+        internal static string UpdateCheckFailedCaption {
+            get {
                 return ResourceManager.GetString("UpdateCheckFailedCaption", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to There is a problem reaching update server. Please check your internet connection and try again later..
         /// </summary>
-        internal static string UpdateCheckFailedMessage
-        {
-            get
-            {
+        internal static string UpdateCheckFailedMessage {
+            get {
                 return ResourceManager.GetString("UpdateCheckFailedMessage", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Update Unavailable.
         /// </summary>
-        internal static string UpdateUnavailableCaption
-        {
-            get
-            {
+        internal static string UpdateUnavailableCaption {
+            get {
                 return ResourceManager.GetString("UpdateUnavailableCaption", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to There is no update available. Please try again later..
         /// </summary>
-        internal static string UpdateUnavailableMessage
-        {
-            get
-            {
+        internal static string UpdateUnavailableMessage {
+            get {
                 return ResourceManager.GetString("UpdateUnavailableMessage", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] ZipExtractor
-        {
-            get
-            {
+        internal static byte[] ZipExtractor {
+            get {
                 object obj = ResourceManager.GetObject("ZipExtractor", resourceCulture);
                 return ((byte[])(obj));
             }

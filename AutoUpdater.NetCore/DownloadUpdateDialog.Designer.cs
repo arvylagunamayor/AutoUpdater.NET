@@ -88,8 +88,13 @@
             this.Controls.Add(this.labelInformation);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.pictureBoxIcon);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "DownloadUpdateDialog2";
-            this.Text = "DownloadUpdateDialog2";
+            this.Text = "Software Update";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DownloadUpdateDialog_FormClosing);
+            this.Load += new System.EventHandler(this.DownloadUpdateDialogLoad);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
