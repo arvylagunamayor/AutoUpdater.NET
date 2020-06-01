@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoUpdater.NetCore", "AutoUpdater.NetCore\AutoUpdater.NetCore.csproj", "{C33A1572-F9C9-4A58-9240-D0464FA2E23B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipExtractor.NetCore", "ZipExtractor.NetCore\ZipExtractor.NetCore.csproj", "{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +84,30 @@ Global
 		{9AEE4F21-5ED5-4C7E-9249-8A680123B5E3}.Release-NET35|Any CPU.Build.0 = Release|Any CPU
 		{9AEE4F21-5ED5-4C7E-9249-8A680123B5E3}.Release-NET40|Any CPU.ActiveCfg = Release|Any CPU
 		{9AEE4F21-5ED5-4C7E-9249-8A680123B5E3}.Release-NET40|Any CPU.Build.0 = Release|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Debug-NET35|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Debug-NET35|Any CPU.Build.0 = Debug|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Debug-NET40|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Debug-NET40|Any CPU.Build.0 = Debug|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Release-NET35|Any CPU.ActiveCfg = Release|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Release-NET35|Any CPU.Build.0 = Release|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Release-NET40|Any CPU.ActiveCfg = Release|Any CPU
+		{C33A1572-F9C9-4A58-9240-D0464FA2E23B}.Release-NET40|Any CPU.Build.0 = Release|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Debug-NET35|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Debug-NET35|Any CPU.Build.0 = Debug|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Debug-NET40|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Debug-NET40|Any CPU.Build.0 = Debug|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Release-NET35|Any CPU.ActiveCfg = Release|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Release-NET35|Any CPU.Build.0 = Release|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Release-NET40|Any CPU.ActiveCfg = Release|Any CPU
+		{09A517D3-860D-44C6-AD6C-C9ADFC10FAA1}.Release-NET40|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

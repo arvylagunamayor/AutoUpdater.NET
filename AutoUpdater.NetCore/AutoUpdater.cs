@@ -640,6 +640,7 @@ namespace AutoUpdaterDotNetCore
         {
             using (var updateForm = new UpdateForm(args))
             {
+                updateForm.ShowInTaskbar = false;
                 if (UpdateFormSize.HasValue)
                 {
                     updateForm.Size = UpdateFormSize.Value;

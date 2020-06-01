@@ -116,6 +116,7 @@
             this.radioButtonYes.TabStop = true;
             this.radioButtonYes.Text = "Yes, please remind me later : ";
             this.radioButtonYes.UseVisualStyleBackColor = true;
+            this.radioButtonYes.CheckedChanged += new System.EventHandler(this.RadioButtonYesCheckedChanged);
             // 
             // labelDescription
             // 
@@ -146,6 +147,7 @@
             this.buttonOK.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonOK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonOK.UseVisualStyleBackColor = true;
+            this.buttonOK.Click += new System.EventHandler(this.ButtonOkClick);
             // 
             // tableLayoutPanel
             // 
@@ -179,7 +181,9 @@
             this.ClientSize = new System.Drawing.Size(499, 198);
             this.Controls.Add(this.tableLayoutPanel);
             this.Name = "RemindLaterForm2";
-            this.Text = "RemindLaterForm2";
+            this.Text = "Remind me later for update";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Load += new System.EventHandler(this.RemindLaterFormLoad);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();

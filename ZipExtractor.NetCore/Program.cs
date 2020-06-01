@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AutoUpdaterDotNetCore
+namespace ZipExtractorDotNetCore
 {
     static class Program
     {
@@ -17,7 +17,7 @@ namespace AutoUpdaterDotNetCore
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DownloadUpdateDialog());
+            Application.Run(new FormMain());
         }
     }
 }
